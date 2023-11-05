@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="android-chrome-192x192.png" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>FitWell</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid bgContainer" style="background-image: url('img/fitnessWoman.jpg'); height: 450px; background-size: cover; background-position: center;">
+        <div class="container letterContainer">
+            <h1 class="display-4" style="color: white;">DESCUBRE TU MÁXIMO <span style="color: rgba(255, 255, 0, 0.874); text-decoration: underline;">POTENCIAL</span></h1>
+            <p class="lead" style="color: white; padding-bottom: 30px;">Entrena en cualquier momento, en cualquier lugar.</p>
+            <!-- Agregar el enlace anclado con la flecha y estilo moderno -->
+            <a href="#secondSection" style="color: white; text-decoration: none; position: relative; font-size: 24px; animation: bounce 2s infinite;">
+                <i class="fas fa-chevron-down" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);"></i>
+            </a>
+        </div>
+    </div>
+    
+    <section class="container-fluid" id="secondSection" style="background-color: #f5f5f5;">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="DescriptionContainer">
+                        <h1 style="font-size: 2rem; color: #333;">La única aplicación de entrenamiento Fitness que necesitarás.</h1>
+                        <p style="font-size: 1.2rem; color: #666;">Calibre es una mejor manera de hacer ejercicio. Obtén programas de entrenamiento efectivos, seguimiento continuo del entrenamiento, métricas de fuerza, educación sobre fitness y nutrición, y mucho más.</p>
+                        <div class="ulContainer" style="display: flex; justify-content: center;">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <ul style="list-style-type: none; font-size: 1.2rem; color: #666; padding-left: 0;">
+                                        <li><i class="fas fa-check-circle" style="color: #ffdf00;"></i> Entrenamientos efectivos</li>
+                                        <li><i class="fas fa-check-circle" style="color: #ffdf00;"></i> Seguimiento perfecto</li>
+                                        <li><i class="fas fa-check-circle" style="color: #ffdf00;"></i> Instrucciones en vídeo</li>
+                                    </ul>
+                                </div>
+    
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <ul style="list-style-type: none; font-size: 1.2rem; color: #666; padding-left: 0;">
+                                        <li><i class="fas fa-check-circle" style="color: #ffdf00;"></i> Métricas de fuerza</li>
+                                        <li><i class="fas fa-check-circle" style="color: #ffdf00;"></i> Lecciones Semanales</li>
+                                        <li><i class="fas fa-check-circle" style="color: #ffdf00;"></i> Sincronización nutricional</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="videoContainer">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/o3KFfOra4dU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="container-fluid" style="background-color: #D3D3D3;">
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <img src="img/client.jpg" style="height: 450px" alt="">
+            </div>
+    
+            <div class="col-sm-12 col-md-6 col-lg-6 py-5 text-center">
+                <p style="font-size: 1.5rem; color: #333;">¿Qué dicen los clientes sobre nosotros?</p>
+    
+                <div class="audioDiv d-flex flex-column align-items-center">
+                    <audio controls style="margin-bottom: 10px; width: 70%;">
+                        <source src="audio/cartoon.wav" type="audio/mpeg">
+                    </audio>
+    
+                    <audio controls style="margin-bottom: 10px; width: 70%;">
+                        <source src="audio/cartoon.wav" type="audio/mpeg">
+                    </audio>
+    
+                    <audio controls style="margin-bottom: 10px; width: 70%;">
+                        <source src="audio/cartoon.wav" type="audio/mpeg">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="formDonwloadSection" class="py-5 parallax-section">
+        
+        <div class="form-container col-md-3 mx-auto text-center" style="background-color: #f4f4f4; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);">
+            <h4>Completa el Formulario a Continuación para Obtener tus Datos Digitales Ahora</h4>
+            <form method="post" name="frmContentDownload">
+                <div class="form-group">
+                    <label for="FirstName1">Nombre</label>
+                    <input class="form-control" name="FirstName1" type="text" value="">
+                </div>
+                <div class="form-group">
+                    <label for="LastName1">Apellido</label>
+                    <input class="form-control" name="LastName1" type="text" value="">
+                </div>
+                <div class="form-group">
+                    <label for="emailAddress">Correo Electrónico</label>
+                    <input class="form-control" name="emailAddress" type="email" value="">
+                </div>
+                <div class="form-group">
+                    <label for="Company1">Empresa</label>
+                    <input class="form-control" name="Company1" type="text" value="">
+                </div>
+                <div class="form-group">
+                    <label for="Title1">Cargo</label>
+                    <input class="form-control" name="Title1" type="text" value="">
+                </div>
+                <div class="form-group">
+                    <label for="StateProvince1">Estado o Provincia</label>
+                    <select class="form-control" name="StateProvince1">
+                        <option value="" disabled selected>ESTADO O PROVINCIA &#8609;</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="AS">Samoa Americana</option>
+                        <option value="AZ">Arizona</option>
+                        <!-- Otras opciones de estados y provincias -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comentarios</label>
+                    <textarea class="form-control" name="comments" rows="3"></textarea>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary btn-lg btn-block my-2" type="submit" value="Descargar Ahora">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+
+    <section>
+        <div id="map" style="width: 100%; height: 400px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d62881.57629335251!2d-84.08766018832796!3d9.925752784900489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d9.9269496!2d-84.0273158!4m5!1s0x8fa0e3f13462cc7b%3A0x97219232a6ee2da8!2scenfotec%20san%20pedro%20maps!3m2!1d9.9313846!2d-84.0641474!5e0!3m2!1sen!2scr" width="100%" height="100%" style="border: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    
+
+    <section id="patrocinadores" class="text-center py-5">
+        <h1 class="section-title">NUESTROS PATROCINADORES</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <a href="https://www.crunch.com/locations/curridabat" target="_blank">
+                        <img class="sponsor-img" src="img/CrunchFitness.jpeg" alt="Crunch Fitness">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://www.goldsgymcr.com/" target="_blank">
+                        <img class="sponsor-img" src="img/goldsgym.png" alt="Gold's Gym">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="https://www.smartfit.cr/?gclid=Cj0KCQjwzdOlBhCNARIsAPMwjbxXSvyTWoTWsRdVouRnMK9N8hPbOnmc7XHbfmHxaCE8sy-66Ol7bcwaAt9WEALw_wcB&gclid=CjwKCAjw15eqBhBZEiwAbDomEuLdy-_dlZgs-8e-Tpn7xtvzMpXSQgjlALCV9YdYkmjvP29L6FP45-DR9RoC_mYQAvD_BwE" target="_blank">
+                        <img class="sponsor-img" src="img/smarfit.svg" alt="SmartFit">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h1 class="section-title">Acerca de</h1>
+            <p>
+                En FitWell, estamos comprometidos a ayudarte a alcanzar tus metas de fitness y bienestar de la manera más efectiva y personalizada posible.            </p>
+            <h2 class="section-subtitle">Siguenos en Redes Sociales</h2>
+            <div class="social">
+                <a href="https://twitter.com/traversymedia" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+                <a href="https://facebook.com/traversymedia" target="_blank"><i class="fab fa-facebook fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/bradtraversy" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+            </div>
+        </div>
+    </section>
+    
+
+<div id="whatsapp-button">
+    <a href="https://wa.me/123456789" target="_blank">
+        <img src="img/whatsIcon.png" alt="WhatsApp" style="height: 50px;">
+    </a>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANujDoO1fv9CS-BF7Q-Jal4zxpe66-m9Y&callback=initMap" async defer></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,126 @@
+.bgContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: end;
+}
+
+.sponsor-img {
+    width: 100%;
+    height: auto;
+}
+
+#whatsapp-button {
+    position: fixed;
+    bottom: -10px; 
+    right: 20px; 
+    z-index: 1000;
+    height: 80px;
+}
+
+
+
+
+.audioDiv{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#patrocinadores {
+    background-color: rgb(78, 77, 77); 
+}
+
+.section-title {
+    font-size: 2rem; 
+    color: rgb(1, 1, 1); 
+    margin-bottom: 30px; 
+}
+
+.sponsor-img {
+    max-width: 100%; 
+    transition: transform 0.3s; 
+}
+
+.sponsor-img:hover {
+    transform: scale(1.05); 
+}
+
+.about-section {
+    background-color: #222; 
+    color: #fff; 
+    padding: 50px 0; 
+    text-align: center; 
+}
+
+.section-title {
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+.section-subtitle {
+    font-size: 1.5rem; 
+    margin-bottom: 30px; 
+}
+
+.social {
+    font-size: 2rem; 
+}
+
+.social a {
+    color: #fff; 
+    margin: 0 10px; 
+    transition: color 0.3s; 
+}
+
+.social a:hover {
+    color: #f0e358; 
+}
+
+#whatsapp-button a {
+    display: inline-block;
+    transition: transform 0.3s; 
+}
+
+#whatsapp-button a:hover {
+    transform: scale(1.2); 
+}
+
+#formDonwloadSection {
+    background-image: url('../img/mancuernas.jpg'); /* Reemplaza 'ruta-de-tu-imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+
+
+.parallax-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.parallax-section::before {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+
+/* Efecto de parallax */
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+}

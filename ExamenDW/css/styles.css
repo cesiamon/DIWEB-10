@@ -225,3 +225,10 @@ footer {
         justify-content: center;
     }
 }
+
+/* portafolio */
+
+.portfolio-box img{
+    height: 300px;
+    
+}

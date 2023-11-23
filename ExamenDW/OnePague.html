@@ -65,7 +65,7 @@
             </div>
         </nav>
 
-        <div class="container text-center introDiv wow animate__fadeIn" data-wow-duration="3.5s" style="margin-top: 200px;">
+        <div  id="letrasDivBg" class="container text-center introDiv wow animate__fadeIn" data-wow-duration="3.5s" style="">
 
             <button id="codeMindersButton" class="text-center" class="wow animate__fadeInUp" data-wow-duration="6.5s">
              Bienvenidos a codeMinders
@@ -167,16 +167,18 @@
 
 <!-- Emergencia Tecnica -->
 
-<section id="soporteTecnico" class="container-fluid emergenciaSection parallax-window"  data-parallax="scroll" data-image-src="img/phoneClientwomen.webp">
-    <div class="container-fluid emergenciaSectionInfo text-center wow animate__zoomIn" data-wow-duration="2.5s" data-wow-duration="4.5s"> 
+<section id="soporteTecnico" class="container-fluid emergenciaSection parallax-window" data-parallax="scroll" data-image-src="img/phoneClientwomen.webp">
 
-        <h2>¿Tienes una Emergencia Técnica?</h2>
-        <p>Estamos aquí para solucionar cualquier problema técnico de manera rápida y eficiente. Contamos con un equipo especializado en emergencias tecnológicas, listo para atender tus necesidades las 24 horas del día, los 7 días de la semana.</p>
-        <button class="llamarButton">Llamar</button>
+    <div class="row">
+            <div class="container-fluid mt-5 emergenciaSectionInfo text-center wow animate__zoomIn" data-wow-duration="2.5s" data-wow-duration="4.5s">
+                <h2 class="">¿Tienes una Emergencia Técnica?</h2>
+                <p>Estamos aquí para solucionar cualquier problema técnico de manera rápida y eficiente. Contamos con un equipo especializado en emergencias tecnológicas, listo para atender tus necesidades las 24 horas del día, los 7 días de la semana.</p>
+                <button class="llamarButton mb-1" id="llamarBoton" onclick="validation_alert()">Llamar</button>
+            </div>
     </div>
 
-    <!-- <div class="parallax"></div> -->
 </section>
+
 
 <!-- portafolio -->
 
@@ -190,9 +192,12 @@
                 <img class="img-fluid" src="img/codeMinders.jpg" alt="...">
                 <figcaption class="d-flex flex-column align-items-center">
                     <p class="mt-5">CodeMinders</p> 
-                    <a href="./pdf/diwe.pdf" type='button' target="_blank" class="figButton">
+                    <button class="figButton" class="pdfButton" onclick="validation_alert2()">
                         Ver Más
-                    </a>  
+                        <a href="./pdf/diwe.pdf" type='button' target="_blank" class="">
+                        </a>
+                    </button>
+                
                 </figcaption>
                 
             </figure>
@@ -273,7 +278,7 @@
 
 <!-- contacto -->
 
-<Section id="contacto" style="height: 500px;" class="contactoSection py-3">
+<Section id="contacto" style="height: ;" class="contactoSection py-3">
     <div class="text-center" id="serviciosDiv">Contacto</div>
 
     <div class="container text-center">
@@ -301,6 +306,7 @@
     </div>
 
 </Section>
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
 
 
 <!-- footer -->
@@ -345,6 +351,11 @@
     </div>
     
 </footer>
+
+<!-- sweet alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- lottie -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.10/lottie.min.js"></script>
 
 <!-- cargar el archivo JS -->
 <script src="js/wow.min.js"></script>

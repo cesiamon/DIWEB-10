@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;700&family=Roboto:ital,wght@0,300;1,100&family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;700&family=Roboto:ital,wght@0,300;1,100&family=WindSong&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+
+body{
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+
+h1 {
+        font-family: 'Assistant', sans-serif;
+        font-family: 'WindSong', cursive;
+        font-size: 55pt;
+        color: rgba(0, 0, 0, 0.314);
+}
+
+p{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.487);
+}
+
+.p2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.487);
+}
+
+.obras img{
+    height: 240px;
+}
+
+button{
+    width: 110px;
+    padding: 1px;
+    box-shadow: none;
+    border-style: none;
+    background-color: #DFF5FB;
+}
+
+#workshops{
+    background-color: rgba(222, 215, 207, 0.46);
+    /* height: 800px; */
+}
+
+/* listgruops */
+
+.listGSection{
+    background-color: #ded7cf7d;
+}
+
+.horario h3{
+    margin-top: 50px;
+    padding-top: 90px;
+}
+.listTitle{
+    position: relative;
+    margin-top: 50px;
+}
+
+.listTitle img{
+    height: 190px; 
+    width: 350px;
+    object-fit: cover;
+}
+
+.listTitle p{
+    position: absolute; 
+    top: 40px; 
+    left: 20px; 
+    font-size: medium;
+}
+
+.listTitle h2{
+    position: absolute; 
+    top: 60px; 
+    left: 20px; 
+}
+.list-group-item{
+    background-color: #ded7cf94;
+    padding: 15px;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Aquí estableces la opacidad y el color gris */
+    z-index: 1; /* Asegura que la capa esté sobre la imagen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* price table */
+  .parallax-section {
+    /* position: relative; */
+    background-image: url('/Ballet/danceStudio.jpeg'); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta correcta de tu imagen */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; 
+    padding: 100px 0; 
+    /* text-align: center; */
+}
+
+.parallax-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+
+.parallax-section h3{
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    position: relative;
+}
+.price-table{
+    height: 460px;
+    width: 350px;
+    border: solid 1px aliceblue;
+    z-index: 1; 
+    padding: 40px;
+    position: relative;
+    transition: all 0.3s ease; 
+}
+
+.price-table .p1{
+
+    font-size: 16px;
+    color: #efc9b4;
+    text-align: center;
+    
+    
+}
+
+.price-table .p2{
+    font-size: 80px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.price-table .p3{
+
+    font-size: 16px;
+    color: #efc9b4;
+    text-align: center
+}
+
+hr {
+    width: 1px;
+    border: 0;
+    border-top: 1px solid #efc9b4;
+    margin: 10px 0;
+}
+
+
+.price-table .p4{
+    
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.price-table:hover{
+    box-shadow: 0 13px 48px rgba(0, 0, 0, 0.2);
+		z-index:1;
+		color:#fff;
+		background:#00000072;
+		border-color:#efc9b4;
+		-webkit-transform:scale(1.07);
+        cursor: pointer;
+}
+
+/* footer */
+
+footer{
+    background-color: #ded7cfae;
+    display: flex;
+    justify-content: center;
+}
+
+.divColFooter{
+    /* background-color: aquamarine; */
+    justify-items: center;
+    padding: 100px;
+    width: 2000px;
+}
+
+.divColFooter ul{
+    list-style-type: none;
+    padding: 0;
+}
+.divColFooter li{
+    margin-bottom: 12px;
+}
+
+.material-symbols-outlined{
+    color: #eab79b;
+}

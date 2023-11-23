@@ -171,14 +171,14 @@ ul li {
 
 .emergenciaSection {
     background-color: rgba(0, 0, 0, 0.211);    
-    padding: 100px;
+    /* padding: 100px; */
     height: 320px;
     color: aliceblue;
 }
 
 .emergenciaSectionInfo{
     background-color: rgba(0, 0, 0, 0.211);
-    height: 150px;
+    /* height: 150px; */
 }
 
 button.llamarButton {
@@ -260,10 +260,11 @@ footer {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-figButton:hover {
+.figButton:hover {
     background-color: #E5C51B;
     color: #000;
 }
+
 
 
 .portafolio img{
@@ -275,3 +276,58 @@ height: 248px;
     
 }
 
+/* querys */
+/* Estilos para dispositivos más pequeños como el Samsung Galaxy S8+ */
+@media only screen and (max-width: 414px) {
+    /* Cambiar el tamaño del texto en el botón del encabezado */
+    #codeMindersButton {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    /* Ajustar el tamaño del texto en el h1 */
+    h1 {
+        font-size: 20px;
+    }
+
+    /* Ajustar el tamaño del texto en el párrafo */
+    p {
+        font-size: 16px;
+    }
+
+    /* Ajustar el tamaño del texto en el botón "Empecemos" */
+    #empecemosButton {
+        font-size: 16px;
+        margin-bottom: 100px;
+    }
+
+    #letrasDivBg{
+        margin-top: 70px;
+    }
+
+    #soporteTecnico h2 {
+        font-size: 24px;
+    }
+
+    /* Ajustar el tamaño del texto en el párrafo */
+    #soporteTecnico p {
+        font-size: 16px;
+    }
+
+    /* Ajustar el tamaño del texto en el botón "Llamar" */
+    #llamarBoton {
+        font-size: 16px;
+    }
+
+   #emergenciaSectionInfo{
+    height: 200px;
+   }
+}
+
+/* Estilos para dispositivos más grandes */
+@media only screen and (min-width: 415px) {
+    #emergenciaSectionInfo{
+        height: 150px;
+        margin-top: 300px;
+       }
+}

@@ -44,10 +44,11 @@ function validation_alert2() {
       confirmButtonColor: "#008383",
       timer: 5000,
       html: '<iframe src="https://lottie.host/?file=97b62f38-d5b5-4f08-8925-26a2cf541930/M4U9yIJiQA.json"></iframe>',
+  
+    }).then(() => {
+      window.location.href = "./pdf/diwe.pdf"; 
   });
-  setTimeout(() => {
-    window.location.href.blank = "/pdf/diwe.pdf"; 
-}, 3000);
+
 
 }
 

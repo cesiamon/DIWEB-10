@@ -36,7 +36,7 @@ header{
     left: 50%;
     width: 0;
     height: 2px;
-    background-color: #E5C51B; /* Color de la línea */
+    background-color: #E5C51B; 
     transition: width 0.3s ease;
     transform: translateX(-50%);
 }
@@ -49,11 +49,13 @@ header{
 }
 
 .introDiv h1{
-    font-size: 60px;
+    font-size: 65px;
+    margin-top: 30px;
 }
 
 .introDiv p{
-    font-size: 25px;
+    margin-bottom: 30px;
+    font-size: 35px;
 }
 
 #codeMindersButton, #empecemosButton{
@@ -72,22 +74,25 @@ header{
 #empecemosButton {
     font-weight: 300;
     padding: 2px;
-    width: 125px;
-    font-size: 20px;
+    width: 140px;
+    font-size: 23px;
 }
 
 #empecemosButton a {
     text-decoration: none;
     color: #fff;
     padding: 7px;
-    transition: background-color 0.7s ease; /* Aplicar la transición aquí */
+    transition: background-color 0.5s ease; 
     border-radius: 30px;
+    font-weight: bolder;
+
 
 }
 
 #empecemosButton a:hover {
     background-color: #e5c31bd6;
     border-radius: 30px;
+    
 }
 
 
@@ -277,25 +282,21 @@ height: 248px;
 }
 
 /* querys */
-/* Estilos para dispositivos más pequeños como el Samsung Galaxy S8+ */
 @media only screen and (max-width: 414px) {
-    /* Cambiar el tamaño del texto en el botón del encabezado */
+
     #codeMindersButton {
         width: 250px;
         font-size: 15px;
     }
 
-    /* Ajustar el tamaño del texto en el h1 */
     h1 {
         font-size: 20px;
     }
 
-    /* Ajustar el tamaño del texto en el párrafo */
     p {
         font-size: 16px;
     }
 
-    /* Ajustar el tamaño del texto en el botón "Empecemos" */
     #empecemosButton {
         font-size: 16px;
         margin-bottom: 100px;
@@ -309,19 +310,38 @@ height: 248px;
         font-size: 24px;
     }
 
-    /* Ajustar el tamaño del texto en el párrafo */
-    #soporteTecnico p {
-        font-size: 16px;
-    }
+#sobreNosotros{
+    margin: 20px;
+}
 
-    /* Ajustar el tamaño del texto en el botón "Llamar" */
-    #llamarBoton {
-        font-size: 16px;
-    }
 
-   #emergenciaSectionInfo{
+#soporteTecnico p {
+    font-size: 16px;
+}
+
+#llamarBoton {
+    font-size: 16px
+}
+
+#emergenciaSectionInfo{
     height: 200px;
-   }
+}
+
+.nuestraEspecializacion{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
+.portfolio2{
+    padding: 15px;
+}
+
+.siganos{
+    margin-top: 15px;
+}
+
+
 }
 
 /* Estilos para dispositivos más grandes */
@@ -329,5 +349,27 @@ height: 248px;
     #emergenciaSectionInfo{
         height: 150px;
         margin-top: 300px;
-       }
+    }
+
+    .nuestraEspecializacion{
+
+        padding-left: 90px;
+    }
+
+    #letrasDivBg{
+        margin-top: 400px;
+    }
+
+    .navbar{
+        font-size: 20px;
+    }
+
+    .navbar-brand{
+        font-size: 30px;
+    }
+
+    .solucionesCalidad{
+        padding-top: 75px;
+        margin-bottom: 25px;
+    }
 }

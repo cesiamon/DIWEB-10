@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
 
+/* .navbar {
+    position: absolute;
+    width: 100%;
+    background-color: transparent !important;
+    z-index: 1000; /* Asegura que el navbar esté encima de la imagen */
+} */
 
 body{
     font-family: 'Assistant', sans-serif;
@@ -37,6 +43,36 @@ button{
     box-shadow: none;
     border-style: none;
     background-color: #DFF5FB;
+}
+
+/* nav */
+#navbarNav{
+    padding-left: 560px;
+}
+.nav-item{
+    font-size: 20px;
+
+}
+.link1{
+    font-size: 20px;
+    color: aliceblue;
+    transition: all 0.3s ease; 
+
+}
+
+.link1:hover{
+    font-size: 22px;
+    color: #eab79b;
+}
+
+.link2{
+    font-size: 20px;
+    color: black;
+    transition: all 0.3s ease; 
+}
+.link2:hover{
+    font-size: 22px;
+    color: #eab79b;
 }
 
 #workshops{
@@ -96,10 +132,10 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
   /* price table */
-  .parallax-section {
+.parallax-section {
     /* position: relative; */
     background-image: url('/Ballet/danceStudio.jpeg'); /* Reemplaza 'tu_imagen_de_fondo.jpg' con la ruta correcta de tu imagen */
     background-size: cover;
@@ -179,7 +215,7 @@ hr {
 		z-index:1;
 		color:#fff;
 		background:#00000072;
-		border-color:#efc9b4;
+		border-color:#e9bfa8;
 		-webkit-transform:scale(1.07);
         cursor: pointer;
 }
@@ -209,4 +245,65 @@ footer{
 
 .material-symbols-outlined{
     color: #eab79b;
+}
+
+.formSus input{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 230px;
+    background-color: #ded7cf29;
+    border-color: rgba(0, 0, 0, 0.391);
+
+}
+
+.formSus button{
+    border-radius: 30px;
+    width: 230px;
+    padding: 10px;
+    background-color: #eab79b;
+}
+
+.formSus button{
+    border-radius: 30px;
+    width: 230px;
+    padding: 10px;
+    background-color: #eab79b;
+}
+
+/* about */
+.aboutImg{
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.s1{
+    background-color: #efc9b4a6;
+}
+
+.banner-section {
+    position: relative;
+    width: 100%;
+    height: 800px; /* Ajusta la altura según sea necesario */
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.video-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

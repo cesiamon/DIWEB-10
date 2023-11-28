@@ -3,12 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;700&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
 
 
-/* .navbar {
+.navbar {
     position: absolute;
     width: 100%;
-    background-color: transparent !important;
-    z-index: 1000; /* Asegura que el navbar esté encima de la imagen */
-} */
+    background-color: transparent nav-ite!important;
+    z-index: 1000; 
+}
+
+.brandName{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
 
 body{
     font-family: 'Assistant', sans-serif;
@@ -38,11 +44,12 @@ p{
 }
 
 button{
-    width: 110px;
-    padding: 1px;
+    width: 100px;
+    padding: 5px;
     box-shadow: none;
     border-style: none;
     background-color: #DFF5FB;
+
 }
 
 /* nav */
@@ -74,6 +81,8 @@ button{
     font-size: 22px;
     color: #eab79b;
 }
+
+
 
 #workshops{
     background-color: rgba(222, 215, 207, 0.46);
@@ -223,6 +232,7 @@ hr {
 /* footer */
 
 footer{
+    position: relative;
     background-color: #ded7cfae;
     display: flex;
     justify-content: center;
@@ -275,35 +285,92 @@ footer{
 
 /* about */
 .aboutImg{
-    height: 700px;
-    margin-top: 100px;
+    height: 600px;
+    margin-top: 170px;
     margin-left: 150px;
+    margin-bottom: 150px;
 }
 
+.overlay-content{
+    padding-right: 50px;
+    padding-right: 60px;
+    /* background-color: #eab79b; */
+    height: 800;
+}
+
+.overlay-content h1{
+    margin-bottom: 50px;
+}
+
+.overlay-content h3{
+font-weight: bolder;
+}
+
+.overlay-content h3, p{
+padding-left: 30px;    
+    }
+
+
+    /* integrantes */
 .s1{
-    background-color: #efc9b4a6;
+    /* efc9b4a6 */
+    /* background-color: #fdd8d6;  */
+    margin-bottom: -10px;
 }
 
-.banner-section {
+/* video section */
+
+.banner-section{
     position: relative;
-    width: 100%;
-    height: 800px; /* Ajusta la altura según sea necesario */
-    overflow: hidden;
+    padding-bottom: 10px;
 }
 
-.video-background {
+iframe{
+    width: 100vw;
+    height: calc(50vw/1.00);
+}
+
+/* testimonios */
+
+.ninasDiv{
+    position: relative;
+}
+
+
+.puntitosDiv{
+    width: 1300px;
+    height: 525px;
+}
+
+.puntitosDiv h1{
+position: relative;
+top: -32%;
+left: 35%;
+z-index: 2;
+color: rgba(0, 0, 0, 0.77);
+
+}
+
+#puntitos{
+    top: 40%;
+    right: 20%;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+    height: 500px;
+    width: 60%;
+    object-fit: cover;
+    z-index: 1;
 }
 
-.video-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#ninasTestiminio{
+    width: 1000px;
+    position: absolute;
+    left: 26%;
+    bottom:30%;
+    z-index: 3;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    width: 600px;
+    margin-left: 50px;
 }

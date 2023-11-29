@@ -398,3 +398,47 @@ color: rgba(0, 0, 0, 0.77);
     font-weight: 300;
     text-align: center;
 }
+
+#saltoBalerina{
+    object-fit: cover;
+    overflow: hidden;
+    height: 1100px;
+}
+
+.card{
+    border-style: none;
+    overflow: hidden;
+}
+
+.cardImg{
+    object-fit: cover;
+}
+
+.card h2{
+    margin-top: 35px;
+    margin-bottom: px;
+    text-transform: capitalize;
+}
+
+.card a{
+    color: #000;
+    transition: 0.3ms ease;
+}
+.card img {
+    transition: transform 0.3s ease; 
+}
+
+.card a:hover{
+    color:#e9bfa8;
+
+}
+
+.card:hover img {
+    transform: translate(20px, 0px);
+    transform-origin: center bottom; /* Establece el punto de origen en el centro inferior */
+
+}
+
+
+
+

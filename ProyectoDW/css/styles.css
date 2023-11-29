@@ -369,8 +369,32 @@ color: rgba(0, 0, 0, 0.77);
     z-index: 3;
 }
 
+/* contactenos */
+.contactH1H3{
+    padding-left: 400px;
+}
+
+.buttonContact{
+    padding-left: 300px;
+}
+
+
 .form-group{
     margin-bottom: 10px;
     width: 600px;
     margin-left: 50px;
+}
+
+.formDiv{
+    padding-right: 300px;
+}
+
+
+.infoBallet{
+    margin-top: 60px;
+}
+.infoBallet p{
+    font-size: 20px !important;
+    font-weight: 300;
+    text-align: center;
 }

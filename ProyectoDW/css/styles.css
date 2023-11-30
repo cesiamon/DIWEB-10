@@ -488,6 +488,7 @@ color: rgba(0, 0, 0, 0.77);
 }
 
 
+
 #accordionExample{
     margin-top: 80px;
     margin-bottom: 100px;
@@ -601,3 +602,84 @@ margin-left: auto;
 font-size: 20px;
 
 }
+
+.profeDiv{
+    position: relative;
+}
+
+.DivFotoyP{
+    position: absolute;
+    overflow: hidden;
+    top:-90px;
+    left: 30px;
+    clip-path: circle(30%);
+}
+
+.fotoProfe{
+    transform: translate(4%, 6%);
+    width: 101%; 
+    height: 110%;
+    transition: transform 0.3s; /* Transición para suavizar el cambio al hacer hover */
+
+}
+
+.DivFotoyP:hover .fotoProfe {
+    /* transform: scale(1.1); */
+    transform: translate(10px, 0px);
+    transform-origin: center ; /* Ejemplo de transformación al hacer hover */
+}
+
+.DivFotoyP:hover::after {
+    opacity: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(35, 42, 43) 100%);
+    opacity: 3;
+    transition: opacity 0.3s; 
+    overflow: hidden;
+    clip-path: circle(33%);
+    z-index: 1; 
+}
+
+.DivFotoyP .redes-sociales {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 2;
+}
+
+.DivFotoyP:hover .redes-sociales {
+    display: block;
+}
+
+.DivFotoyP .redes-sociales i {
+    font-size: 18px; /* Tamaño original del icono */
+    color: rgb(241, 232, 232); /* Cambia el color del icono según sea necesario */
+}
+
+.DivFotoyP:hover .redes-sociales i {
+    font-size: 44px; /* Tamaño del icono al hacer hover */
+}
+
+#mujerSastre{
+    transform: translate(0%, 24%);
+}
+
+#happyguy{
+    transform: translate(0%, 14%);
+}
+
+#whiteguy{
+    transform: translate(0%, 14%);
+}
+
+#sombrerowoman{
+    transform: translate(0%, 16%);
+}
+

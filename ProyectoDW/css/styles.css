@@ -292,10 +292,10 @@ footer{
 }
 
 .overlay-content{
-    padding-right: 50px;
-    padding-right: 60px;
-    /* background-color: #eab79b; */
     height: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .overlay-content h1{
@@ -605,6 +605,11 @@ font-size: 20px;
 
 .profeDiv{
     position: relative;
+    
+}
+
+.profecentro{
+    margin-left: 0px;
 }
 
 .DivFotoyP{
@@ -619,14 +624,8 @@ font-size: 20px;
     transform: translate(4%, 6%);
     width: 101%; 
     height: 110%;
-    transition: transform 0.3s; /* Transición para suavizar el cambio al hacer hover */
+    transition: transform 0.3s ease-out; /* Transición para suavizar el cambio al hacer hover */
 
-}
-
-.DivFotoyP:hover .fotoProfe {
-    /* transform: scale(1.1); */
-    transform: translate(10px, 0px);
-    transform-origin: center ; /* Ejemplo de transformación al hacer hover */
 }
 
 .DivFotoyP:hover::after {
@@ -639,10 +638,10 @@ font-size: 20px;
     height: 100%;
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(35, 42, 43) 100%);
     opacity: 3;
-    transition: opacity 0.3s; 
     overflow: hidden;
     clip-path: circle(33%);
     z-index: 1; 
+    
 }
 
 .DivFotoyP .redes-sociales {
@@ -659,12 +658,12 @@ font-size: 20px;
 }
 
 .DivFotoyP .redes-sociales i {
-    font-size: 18px; /* Tamaño original del icono */
-    color: rgb(241, 232, 232); /* Cambia el color del icono según sea necesario */
+    font-size: 18px; 
+    color: rgb(241, 232, 232); 
 }
 
 .DivFotoyP:hover .redes-sociales i {
-    font-size: 44px; /* Tamaño del icono al hacer hover */
+    font-size: 44px; 
 }
 
 #mujerSastre{

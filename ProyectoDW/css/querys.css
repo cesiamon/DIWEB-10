@@ -1,0 +1,11 @@
+@media screen and (device-width: 360px) and (device-height: 740px) {
+
+    .workshops{
+        position: none;
+    }
+
+    overlay-element{
+        position: none;
+    }
+}
+

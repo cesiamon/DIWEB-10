@@ -39,9 +39,6 @@ p{
     color: rgba(0, 0, 0, 0.487);
 }
 
-.obras img{
-    height: 240px;
-}
 
 button{
     width: 100px;
@@ -54,8 +51,9 @@ button{
 
 /* nav */
 #navbarNav{
-    padding-left: 560px;
+    padding-left: 1450px;
 }
+
 .nav-item{
     font-size: 20px;
 
@@ -89,6 +87,12 @@ button{
     /* height: 800px; */
 }
 
+
+/* video resposive */
+.divVideo{
+    width: 2000px; 
+    margin-left: 250px;
+}
 /* listgruops */
 
 .listGSection{
@@ -399,6 +403,7 @@ color: rgba(0, 0, 0, 0.77);
     text-align: center;
 }
 
+/* eventos */
 #saltoBalerina{
     object-fit: cover;
     overflow: hidden;
@@ -407,7 +412,7 @@ color: rgba(0, 0, 0, 0.77);
 
 .card{
     border-style: none;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .cardImg{
@@ -517,6 +522,10 @@ color: rgba(0, 0, 0, 0.77);
 }
 
 /* whatssap */
+#whatsapp-button img{
+    height: 90px;
+}
+
 #whatsapp-button a {
     display: inline-block;
     background-color: #efc9b469;
@@ -608,10 +617,6 @@ font-size: 20px;
     
 }
 
-.profecentro{
-    margin-left: 0px;
-}
-
 .DivFotoyP{
     position: absolute;
     overflow: hidden;
@@ -680,5 +685,22 @@ font-size: 20px;
 
 #sombrerowoman{
     transform: translate(0%, 16%);
+}
+
+.imgContacto img{
+    height: 600px;
+}
+
+.mapa{
+    height: 400px; 
+    overflow: hidden;
+}
+
+#exampleModal{
+    margin-top:200px;
+}
+
+.modal-header img{
+    height:300px;
 }
 

@@ -7,8 +7,8 @@
         height: 600px;
     }
 
-    .navbar {
-        /* background-color: rgba(0, 0, 0, 0.7) !important; */
+    #navbarNav{
+        padding-left: 230px;
     }
 
     .custom-shape-divider-bottom-1700357920 svg {
